@@ -16,7 +16,7 @@ Powered by [reflex.dev](https://reflex.dev/)
 - Pandas
 
     BTW - I am on Ubuntu 24.04.
-  
+
 
 
 ## Getting Started
@@ -27,7 +27,7 @@ Powered by [reflex.dev](https://reflex.dev/)
     sudo apt update && sudo apt upgrade -y
     ## Install the virtualenv tool and unzip
     sudo apt install python3.12-venv unzip
-    ## Install the `bun` module for later use with Reflex
+    ## Install the `bun` module for later use with Reflex (Linux and macOS)
     curl -fsSL https://bun.sh/install | bash
     ## activate the .bashrc to make sure bun is accessible
     source ~/.bashrc
@@ -67,15 +67,18 @@ Powered by [reflex.dev](https://reflex.dev/)
 6. Start up the Reflex App
     ```shell
     reflex run
+    ## In macOS, It may complain no permission to run/install ...bun_install.sh 
+    ## (it's actually installed previously), you have to use
+    ## sudo reflex run
     ```
     Please install `bun` package (`curl -fsSL https://bun.sh/install | bash`) if you confront a warning like:
-
+    
     > Warning: There was an error running command: ['/home/zenusr/.local/share/reflex/bun/bin/bun', 'install'].
     >
     > Warning: There was an error running command: ['/home/zenusr/.local/share/reflex/bun/bin/bun', 'add',...
-
+    
     Eventually, you will be presented with:
-
+    
     > App running at: http://localhost:3000 
     >
     > Backend running at: http://0.0.0.0:8000
