@@ -28,6 +28,8 @@
     sudo apt install python3.12-venv unzip
     ## Install the `bun` module for later use with Reflex
     curl -fsSL https://bun.sh/install | bash
+    ## activate the .bashrc to make sure bun is accessible
+    source ~/.bashrc
     ```
 2. Create venv and give a go
     ```shell
