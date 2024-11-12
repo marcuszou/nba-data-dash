@@ -1,9 +1,12 @@
 # NBA Data Dash
-Powered by [Reflex](https://reflex.dev/) 
+Powered by [reflex.dev](https://reflex.dev/) 
+
+
 
 ## Data Source
 
 - https://github.com/NocturneBear/NBA-Data-2010-2024
+
 
 
 ## Tech Stack
@@ -14,6 +17,7 @@ Powered by [Reflex](https://reflex.dev/)
 
     BTW - I am on Ubuntu 24.04.
   
+
 
 ## Getting Started
 
@@ -76,6 +80,7 @@ Powered by [Reflex](https://reflex.dev/)
     >
     > Backend running at: http://0.0.0.0:8000
 7. Enjoy the show.
+
 
 
 ## Push the Project to GitHub
