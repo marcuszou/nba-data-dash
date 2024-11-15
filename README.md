@@ -78,9 +78,6 @@ Powered by [reflex.dev](https://reflex.dev/)
 6. Start up the Reflex App
     ```shell
     reflex run
-    ## In macOS, It may complain no permission to run/install ...bun_install.sh 
-    ## (it's actually installed previously), you have to use
-    ## sudo reflex run
     ```
     Eventually, you will be presented with:
     
@@ -107,7 +104,7 @@ Powered by [reflex.dev](https://reflex.dev/)
    ## channel it to master - sorry not a fan of main
    git branch -M master
    ## conenct to remote repo
-   git remote add origin https://github.com/marcuszou/nba-data-dash.git
+   git remote add origin https://github.com/marcuszou/reflex-nba-dash.git
    ## Push the project files
    git push -u origin master
    ```
