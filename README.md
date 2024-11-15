@@ -28,6 +28,10 @@ Powered by [reflex.dev](https://reflex.dev/)
     ## Install the virtualenv tool and unzip
     sudo apt install python3.12-venv unzip
     
+    ## Install node.js 22
+    sudo apt install nodejs -y
+    ## brew install node@22
+    
     ## Install the `bun` package manager for later use with Reflex
     ## If you have Node.js v20+ installed, this is not neccessary!
     curl -fsSL https://bun.sh/install | bash
